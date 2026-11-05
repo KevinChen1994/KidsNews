@@ -1,0 +1,35 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.part
+*.lock
+.DS_Store
+
+# Personal settings and local source material
+/config/local.json
+/config/local.*.json
+!/config/local.example.json
+/private/
+
+# Episodes, transcripts, delivery records, auditions and daily state
+/episodes/
+/delivery/
+/samples/
+/state/
+
+# Generated audio and provider sidecars (keep catalog and batch manifests)
+*.mp3
+*.wav
+*.m4a
+*.flac
+/assets/music/*.json
+!/assets/music/catalog.json
+!/assets/music/library-build-*.json
+!/assets/music/library-expansion-*.json
+/assets/music/*.results.json
+
+# Local validation output
+/docs/audio-validation.json
+/docs/mix-loudness.json

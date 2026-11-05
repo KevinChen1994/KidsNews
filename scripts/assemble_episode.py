@@ -30,8 +30,11 @@ def main():
     plan = json.loads(plan_path.read_text())
     bitrate = plan.get('output_bitrate', '192k')
     channels = plan.get('output_channels', 2)
-    if bitrate not in ('48k', '64k', '96k', '128k', '192k') or channels not in (1, 2):
+    true_peak = float(plan.get('output_true_peak_db', -1.5))
+    if bitrate not in ('40k', '48k', '64k', '96k', '128k', '192k') or channels not in (1, 2):
         parser.error('Unsupported output bitrate or channel count')
+    if not -9 <= true_peak <= -1:
+        parser.error('Output true peak target must be between -9 and -1 dBTP')
     voice = ROOT / plan['voice']
     metadata = json.loads(voice.with_suffix('.json').read_text())
     if metadata.get('status') != 'complete':
@@ -125,7 +128,7 @@ def main():
                          end_seconds=round(start + length, 3), file=str(path)))
     graph.append('[voice]' + ''.join(music_labels) +
                  f'amix=inputs={1+len(music_labels)}:duration=first:normalize=0,'
-                 'loudnorm=I=-16:TP=-1.5:LRA=7[out]')
+                 f'loudnorm=I=-16:TP={true_peak}:LRA=7[out]')
     output.parent.mkdir(parents=True, exist_ok=True)
     filter_graph = ';'.join(graph)
     subprocess.run(command + ['-filter_complex', filter_graph, '-map', '[out]',
@@ -138,6 +141,7 @@ def main():
               'voice_seconds': voice_duration, 'output_seconds': duration(output),
               'sha256': hashlib.sha256(output.read_bytes()).hexdigest(),
               'output_bitrate': bitrate, 'output_channels': channels,
+              'output_true_peak_db': true_peak,
               'review_status': '已通过', 'approval_mode': 'automatic-after-technical-checks',
               'human_listening_performed': False, 'technical_validation': 'decoded-successfully',
               'filter_graph': filter_graph}
