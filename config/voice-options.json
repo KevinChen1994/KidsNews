@@ -1,0 +1,76 @@
+{
+  "source": "https://docs.volcengine.com/docs/doubao-voice/tone-list-3?lang=zh",
+  "checked_date": "2026-11-05",
+  "note": "用户选定Vivi和云舟用于每日随机主持；同一天固定一次，重跑复用。小何、小天保留试听但不参与日常选择。",
+  "voices": [
+    {
+      "name": "Vivi 2.0",
+      "speaker": "zh_female_vv_uranus_bigtts",
+      "gender": "女声",
+      "api_verified": true,
+      "preview": "samples/voice-preview.mp3",
+      "listening_review": "user-selected",
+      "duration_seconds": 28.248,
+      "technical_validation": "decoded-successfully",
+      "selected_for_daily": true
+    },
+    {
+      "name": "小何 2.0",
+      "speaker": "zh_female_xiaohe_uranus_bigtts",
+      "gender": "女声",
+      "api_verified": true,
+      "preview": "samples/voices/xiaohe.mp3",
+      "listening_review": "pending",
+      "duration_seconds": 25.608,
+      "technical_validation": "decoded-successfully",
+      "selected_for_daily": false
+    },
+    {
+      "name": "云舟 2.0",
+      "speaker": "zh_male_m191_uranus_bigtts",
+      "gender": "男声",
+      "api_verified": true,
+      "preview": "samples/voices/yunzhou.mp3",
+      "listening_review": "user-selected",
+      "duration_seconds": 26.52,
+      "technical_validation": "decoded-successfully",
+      "selected_for_daily": true
+    },
+    {
+      "name": "小天 2.0",
+      "speaker": "zh_male_taocheng_uranus_bigtts",
+      "gender": "男声",
+      "api_verified": true,
+      "preview": "samples/voices/xiaotian.mp3",
+      "listening_review": "pending",
+      "duration_seconds": 24.288,
+      "technical_validation": "decoded-successfully",
+      "selected_for_daily": false
+    },
+    {
+      "name": "儿童绘本 2.0",
+      "speaker": "zh_female_xiaoxue_uranus_bigtts",
+      "gender": "女声",
+      "api_verified": false,
+      "selected_for_daily": false
+    },
+    {
+      "name": "温柔妈妈 2.0",
+      "speaker": "zh_female_wenroumama_uranus_bigtts",
+      "gender": "女声",
+      "api_verified": false,
+      "selected_for_daily": false
+    }
+  ],
+  "daily_selection": {
+    "mode": "uniform-random-persisted",
+    "timezone": "Asia/Shanghai",
+    "speakers": [
+      "zh_female_vv_uranus_bigtts",
+      "zh_male_m191_uranus_bigtts"
+    ],
+    "same_day_reuse": true,
+    "allow_consecutive_days_same_voice": true,
+    "state_directory": "state/voices"
+  }
+}

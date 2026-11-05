@@ -1,0 +1,15 @@
+{
+  "program_name": "世界小报",
+  "listener_name": "小朋友",
+  "audience_age": "6–8岁",
+  "interests": [],
+  "listening_context": "晚饭后或睡前",
+  "delivery": {
+    "baidu_share_url": "",
+    "baidu_remote_dir": "",
+    "notion_database_id": "",
+    "notion_data_source_id": "",
+    "notion_view_id": ""
+  },
+  "reference_material_url": ""
+}

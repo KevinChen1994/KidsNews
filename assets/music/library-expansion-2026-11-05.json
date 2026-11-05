@@ -1,0 +1,230 @@
+{
+  "purpose": "Explicitly authorized second expansion: keep existing opening; daily reuse only after completion.",
+  "tracks": [
+    {
+      "id": "26-bed-26",
+      "role": "好奇",
+      "title": "陶笛线索",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Very soft ocarina phrases over sparse nylon guitar, 76 BPM, patient curiosity; only a few breathy notes. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/26-bed-26.mp3"
+    },
+    {
+      "id": "27-bed-27",
+      "role": "好奇",
+      "title": "木管小问号",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Soft bass clarinet and muted marimba, 78 BPM, warm low-register inquiry, no mysterious or dark mood. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/27-bed-27.mp3"
+    },
+    {
+      "id": "28-bed-28",
+      "role": "好奇",
+      "title": "拇指琴发现",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Quiet kalimba and sparse felt piano, 80 BPM, gentle inquisitive patterns with large rests. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/28-bed-28.mp3"
+    },
+    {
+      "id": "29-bed-29",
+      "role": "好奇",
+      "title": "长笛观察",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Soft alto flute and warm harp plucks, 72 BPM, light observational curiosity, no busy runs. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/29-bed-29.mp3"
+    },
+    {
+      "id": "30-bed-30",
+      "role": "轻快",
+      "title": "小路爵士",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Muted nylon guitar, soft upright bass and extremely quiet brushes, 90 BPM, relaxed warm acoustic jazz accompaniment, no solos. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/30-bed-30.mp3"
+    },
+    {
+      "id": "31-bed-31",
+      "role": "轻快",
+      "title": "手风琴散步",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Very soft accordion chords and pizzicato strings, 84 BPM, friendly walking rhythm with little melody, restrained chamber folk. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/31-bed-31.mp3"
+    },
+    {
+      "id": "32-bed-32",
+      "role": "轻快",
+      "title": "曼陀林小步",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Muted mandolin, nylon guitar and quiet bass, 86 BPM, gentle optimism, sparse steady acoustic accompaniment. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/32-bed-32.mp3"
+    },
+    {
+      "id": "33-bed-33",
+      "role": "轻快",
+      "title": "拨弦轻风",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Soft ukulele, warm muted piano and very quiet shaker, 88 BPM, quietly playful, no advertising-jingle energy. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/33-bed-33.mp3"
+    },
+    {
+      "id": "34-bed-34",
+      "role": "安静",
+      "title": "古典吉他夜色",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Soft classical guitar arpeggios and a subdued low cello, 62 BPM, intimate peaceful bedtime mood. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/34-bed-34.mp3"
+    },
+    {
+      "id": "35-bed-35",
+      "role": "安静",
+      "title": "低音长笛晚风",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Breathy soft alto flute and very quiet warm strings, 60 BPM, long rests, reassuring stable harmony. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/35-bed-35.mp3"
+    },
+    {
+      "id": "36-bed-36",
+      "role": "安静",
+      "title": "电钢琴夜灯",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Warm muted electric piano and soft acoustic bass, 66 BPM, mellow peaceful evening, no rhythmic insistence. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/36-bed-36.mp3"
+    },
+    {
+      "id": "37-bed-37",
+      "role": "安静",
+      "title": "竖琴与中提琴",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Sparse soft harp and muted viola, 64 BPM, spacious restful accompaniment, no glittering flourishes. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/37-bed-37.mp3"
+    },
+    {
+      "id": "38-bed-38",
+      "role": "思考",
+      "title": "单簧管慢想",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Warm low clarinet and felt piano, 70 BPM, thoughtful patient everyday reasoning, neutral rather than melancholy. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/38-bed-38.mp3"
+    },
+    {
+      "id": "39-bed-39",
+      "role": "思考",
+      "title": "尼龙弦留白",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Sparse nylon guitar harmonics and warm upright bass, 68 BPM, generous quiet spaces for an open question. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/39-bed-39.mp3"
+    },
+    {
+      "id": "40-bed-40",
+      "role": "思考",
+      "title": "木琴与大提琴",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Very soft marimba and muted cello pizzicato, 72 BPM, patient problem solving and gentle reflection. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/40-bed-40.mp3"
+    },
+    {
+      "id": "41-bed-41",
+      "role": "思考",
+      "title": "钢琴与小号",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Very soft muted flugelhorn with sparse warm piano, 68 BPM, comforting reflective harmony, no prominent lead solo. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/41-bed-41.mp3"
+    },
+    {
+      "id": "42-bed-42",
+      "role": "叙事",
+      "title": "吉他与木管",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Nylon guitar and soft clarinet with quiet bass, 80 BPM, warm neutral documentary bed for everyday human stories. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/42-bed-42.mp3"
+    },
+    {
+      "id": "43-bed-43",
+      "role": "叙事",
+      "title": "温暖室内乐",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Muted chamber strings, sparse piano and pizzicato bass, 78 BPM, steady reassuring narrative accompaniment. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/43-bed-43.mp3"
+    },
+    {
+      "id": "44-bed-44",
+      "role": "叙事",
+      "title": "轻柔民谣",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Fingerpicked acoustic guitar and soft cello with very quiet wooden taps, 82 BPM, grounded friendly acoustic folk accompaniment. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/44-bed-44.mp3"
+    },
+    {
+      "id": "45-bed-45",
+      "role": "叙事",
+      "title": "柔和电钢琴",
+      "seconds": 90,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. Soft mellow electric piano, upright bass and restrained brushed texture, 76 BPM, neutral warm narrative bed without a catchy lead. Continuous unobtrusive background under speech, very low melodic density, stable tempo and level, no sectional changes, no build-up, no big intro or ending. First and last bars harmonically compatible for an edited crossfade, not a final cadence.",
+      "output": "assets/music/45-bed-45.mp3"
+    },
+    {
+      "id": "46-transition",
+      "role": "转场",
+      "title": "拇指琴翻页",
+      "seconds": 8,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. A short soft kalimba and felt piano transition, 76 BPM, only a few warm original notes, clean resolved ending.",
+      "output": "assets/music/46-transition.mp3"
+    },
+    {
+      "id": "47-transition",
+      "role": "转场",
+      "title": "木管翻页",
+      "seconds": 8,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. A short soft clarinet and pizzicato cello transition, 78 BPM, friendly and curious, clean resolved ending.",
+      "output": "assets/music/47-transition.mp3"
+    },
+    {
+      "id": "48-transition",
+      "role": "转场",
+      "title": "吉他轻转身",
+      "seconds": 8,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. A short nylon guitar and muted mandolin transition, 80 BPM, quiet and thoughtful, clean resolved ending.",
+      "output": "assets/music/48-transition.mp3"
+    },
+    {
+      "id": "49-ending",
+      "role": "收尾",
+      "title": "木管晚安",
+      "seconds": 20,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. A short reassuring closing signature with soft clarinet and warm felt piano, 64 BPM, original simple motif settling fully into silence.",
+      "output": "assets/music/49-ending.mp3"
+    },
+    {
+      "id": "50-ending",
+      "role": "收尾",
+      "title": "尼龙弦晚安",
+      "seconds": 20,
+      "model": "music_v2_5",
+      "prompt": "Original instrumental accompaniment for a gentle Chinese evening world news podcast for a six year old child. Warm acoustic feeling, restrained dynamics, clean recording. No vocals, lyrics, spoken sounds, sound effects, suspense, sudden accents, loud drums or dramatic swells. A short comforting closing signature with gentle nylon guitar and muted viola, 62 BPM, original motif ending in a peaceful resolved cadence.",
+      "output": "assets/music/50-ending.mp3"
+    }
+  ]
+}

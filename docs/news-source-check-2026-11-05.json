@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-11-05T15:39:20.182983+08:00",
+  "scope": "一次性来源检查，不是每日采集任务",
+  "checks": [
+    {
+      "source_id": "chinanews",
+      "kind": "rss",
+      "url": "https://www.chinanews.com.cn/rss/scroll-news.xml",
+      "http_status": 200,
+      "final_url": "https://www.chinanews.com.cn/rss/scroll-news.xml",
+      "content_type": "text/xml",
+      "parsed": true,
+      "item_count": 30,
+      "latest_item_date": "Thu, 5 Nov 2026 15:33:14 +0800"
+    },
+    {
+      "source_id": "guardian",
+      "kind": "rss",
+      "url": "https://www.theguardian.com/world/rss",
+      "http_status": 200,
+      "final_url": "https://www.theguardian.com/world/rss",
+      "content_type": "text/xml; charset=UTF-8",
+      "parsed": true,
+      "item_count": 45,
+      "latest_item_date": "Wed, 04 Nov 2026 18:18:37 GMT"
+    },
+    {
+      "source_id": "nasa",
+      "kind": "rss",
+      "url": "https://www.nasa.gov/feed/",
+      "http_status": 200,
+      "final_url": "https://www.nasa.gov/feed/",
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "parsed": true,
+      "item_count": 10,
+      "latest_item_date": "Thu, 05 Nov 2026 05:05:00 +0000"
+    },
+    {
+      "source_id": "chinanews",
+      "kind": "article",
+      "url": "https://www.chinanews.com.cn/tp/2026/11-05/10726570.shtml",
+      "http_status": 200,
+      "final_url": "https://www.chinanews.com.cn/tp/2026/11-05/10726570.shtml",
+      "content_type": "text/html",
+      "page_title": "成都网约公交正式投入运营-中新网",
+      "visible_text_characters": 3353,
+      "date_samples": [
+        "2026-11-05"
+      ],
+      "note": "HTTP与标题检查；正文质量另由编辑阅读核对，字符数不等于正文完整。"
+    },
+    {
+      "source_id": "xinhua",
+      "kind": "article",
+      "url": "https://www.news.cn/culture/20261105/50d073223a7c4d25a2a6a64aabb39106/c.html",
+      "http_status": 200,
+      "final_url": "https://www.news.cn/culture/20261105/50d073223a7c4d25a2a6a64aabb39106/c.html",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "近万件流失海外敦煌文物实现数字化“团圆”-新华网",
+      "visible_text_characters": 892,
+      "date_samples": [
+        "2026-11-05"
+      ],
+      "note": "HTTP与标题检查；正文质量另由编辑阅读核对，字符数不等于正文完整。"
+    },
+    {
+      "source_id": "ap",
+      "kind": "article",
+      "url": "https://apnews.com/article/karl-bushby-world-walk-hull-england-0317df0d80138f045eed4dc15db50c10",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source_id": "guardian",
+      "kind": "article",
+      "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+      "http_status": 200,
+      "final_url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+      "content_type": "text/html; charset=UTF-8",
+      "page_title": "ANC faces anger over poor services as South Africans vote in local elections | South Africa | The Guardian",
+      "visible_text_characters": 8449,
+      "date_samples": [
+        "4 Nov 2026"
+      ],
+      "note": "HTTP与标题检查；正文质量另由编辑阅读核对，字符数不等于正文完整。"
+    },
+    {
+      "source_id": "nasa",
+      "kind": "article",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "http_status": 200,
+      "final_url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "content_type": "text/html; charset=UTF-8",
+      "page_title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found - NASA",
+      "visible_text_characters": 14188,
+      "date_samples": [],
+      "note": "HTTP与标题检查；正文质量另由编辑阅读核对，字符数不等于正文完整。"
+    },
+    {
+      "source_id": "ioc",
+      "kind": "article",
+      "url": "https://www.olympics.com/ioc/news/dakar-2026-youth-olympic-games-open-in-historic-first-for-africa",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source_id": "cas",
+      "kind": "article",
+      "url": "https://www.cas.cn/syky/202611/t20261102_5123232.shtml",
+      "http_status": 200,
+      "final_url": "https://www.cas.cn/syky/202611/t20261102_5123232.shtml",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "研究揭示气孔前体细胞分化的生长素反馈调控机制----中国科学院",
+      "visible_text_characters": 5723,
+      "date_samples": [],
+      "note": "HTTP与标题检查；正文质量另由编辑阅读核对，字符数不等于正文完整。"
+    }
+  ]
+}

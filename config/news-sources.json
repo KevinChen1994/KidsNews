@@ -1,0 +1,206 @@
+{
+  "schema_version": 2,
+  "timezone": "Asia/Shanghai",
+  "status": "proposed-for-user-review",
+  "checked_on": "2026-11-05",
+  "review_document": "docs/新闻信息源.md",
+  "validation_log": "docs/news-source-check-2026-11-05.json",
+  "collection_enabled": false,
+  "sources": [
+    {
+      "id": "chinanews",
+      "name": "中国新闻网",
+      "url": "https://www.chinanews.com.cn/scroll-news/news1.html",
+      "role": "discovery",
+      "coverage": [
+        "中国",
+        "社会生活",
+        "文化",
+        "体育",
+        "商业",
+        "国际"
+      ],
+      "review_status": "proposed",
+      "enabled": false,
+      "access_method": "rss-and-web",
+      "validation": {
+        "checked_on": "2026-11-05",
+        "status": "rss-and-sample-http-checked",
+        "notes": "RSS解析30条，最新条目为11月5日；抽样文章HTTP 200且标题日期可提取，正文仍需逐篇核对。",
+        "sample_article_url": "https://www.chinanews.com.cn/tp/2026/11-05/10726570.shtml"
+      },
+      "feed_url": "https://www.chinanews.com.cn/rss/scroll-news.xml"
+    },
+    {
+      "id": "xinhua",
+      "name": "新华网",
+      "url": "https://www.news.cn/",
+      "role": "discovery",
+      "coverage": [
+        "中国",
+        "国际",
+        "文化",
+        "科技",
+        "体育"
+      ],
+      "review_status": "proposed",
+      "enabled": false,
+      "access_method": "web",
+      "validation": {
+        "checked_on": "2026-11-05",
+        "status": "sample-body-readable",
+        "notes": "栏目页可读，抽样文化报道正文及11月5日发布时间可读取；事件发布会发生于11月4日。不假定有已验证RSS。",
+        "sample_article_url": "https://www.news.cn/culture/20261105/50d073223a7c4d25a2a6a64aabb39106/c.html"
+      }
+    },
+    {
+      "id": "ap",
+      "name": "AP News",
+      "url": "https://apnews.com/world-news",
+      "role": "discovery",
+      "coverage": [
+        "国际",
+        "社会生活",
+        "商业",
+        "文化",
+        "体育",
+        "科学"
+      ],
+      "review_status": "proposed",
+      "enabled": false,
+      "access_method": "web-search-tool",
+      "validation": {
+        "checked_on": "2026-11-05",
+        "status": "tool-readable-local-http-blocked",
+        "notes": "检索工具可打开栏目及抽样文章；本机直连抽样正文HTTP 403。作为国际补充，不能声称本机自动抓取已验证。",
+        "sample_article_url": "https://apnews.com/article/karl-bushby-world-walk-hull-england-0317df0d80138f045eed4dc15db50c10"
+      }
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/world",
+      "role": "discovery",
+      "coverage": [
+        "国际",
+        "非洲",
+        "亚洲",
+        "美洲",
+        "欧洲",
+        "社会生活",
+        "环境"
+      ],
+      "review_status": "proposed",
+      "enabled": false,
+      "access_method": "rss-and-web",
+      "validation": {
+        "checked_on": "2026-11-05",
+        "status": "rss-and-sample-http-checked",
+        "notes": "世界新闻RSS解析45条，最新条目为11月4日；抽样正文HTTP 200，仍需逐篇编辑核对。新闻报道与评论分开使用。",
+        "sample_article_url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts"
+      },
+      "feed_url": "https://www.theguardian.com/world/rss"
+    },
+    {
+      "id": "cas",
+      "name": "中国科学院",
+      "url": "https://www.cas.cn/syky/",
+      "role": "verification",
+      "coverage": [
+        "中国",
+        "科研",
+        "生态",
+        "植物",
+        "技术"
+      ],
+      "review_status": "proposed",
+      "enabled": false,
+      "access_method": "web",
+      "validation": {
+        "checked_on": "2026-11-05",
+        "status": "sample-http-checked-extraction-caution",
+        "notes": "本机抽样文章HTTP 200且标题对应；检索工具曾主要返回全站导航，不能仅凭HTTP 200视为读到论文或完整正文。按题追至研究所及论文。",
+        "sample_article_url": "https://www.cas.cn/syky/202611/t20261102_5123232.shtml"
+      }
+    },
+    {
+      "id": "nasa",
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news/",
+      "role": "verification",
+      "coverage": [
+        "航天",
+        "地球观测",
+        "科研"
+      ],
+      "review_status": "proposed",
+      "enabled": false,
+      "access_method": "rss-and-web",
+      "validation": {
+        "checked_on": "2026-11-05",
+        "status": "rss-and-sample-readable",
+        "notes": "官方RSS解析10条，最新条目为11月5日；抽样文章可读。RSS含图片和科普旧知识，发布日期不等于新事件发生日期，不能主导全部选题。",
+        "sample_article_url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
+      },
+      "feed_url": "https://www.nasa.gov/feed/"
+    },
+    {
+      "id": "ioc",
+      "name": "国际奥委会 IOC",
+      "url": "https://www.olympics.com/ioc/news",
+      "role": "verification",
+      "coverage": [
+        "国际",
+        "体育",
+        "青奥会"
+      ],
+      "review_status": "proposed",
+      "enabled": false,
+      "access_method": "web-search-tool",
+      "validation": {
+        "checked_on": "2026-11-05",
+        "status": "tool-readable-local-http-blocked",
+        "notes": "检索工具可读新闻列表、日期和青奥会抽样正文；本机抽样HTTP 403。只核验主办方发布的事实，成绩和规则按题查对应赛事或单项组织。",
+        "sample_article_url": "https://www.olympics.com/ioc/news/dakar-2026-youth-olympic-games-open-in-historic-first-for-africa"
+      }
+    }
+  ],
+  "reserves": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/",
+      "enabled": false,
+      "reason": "本轮检索工具未能打开；不作为每日必需入口。"
+    },
+    {
+      "name": "BBC Newsround",
+      "url": "https://www.bbc.co.uk/newsround",
+      "enabled": false,
+      "reason": "本轮检索工具robots限制；仅列为儿童表达参考，不能代替原始事实。"
+    },
+    {
+      "name": "联合国新闻中文",
+      "url": "https://news.un.org/zh/",
+      "enabled": false,
+      "reason": "本轮检索工具robots限制；按题寻找具体机构原始发布。"
+    },
+    {
+      "name": "UNESCO",
+      "url": "https://www.unesco.org/en/news",
+      "enabled": false,
+      "reason": "本轮访问超时，未完成正文验证。"
+    }
+  ],
+  "usage": {
+    "discovery": "用户确认后启用；先国内/国际综合浏览，再补领域及地区缺口，候选尽量来自不同独立采编来源。",
+    "verification": "围绕已选事件追原始机构、论文、博物馆或赛事记录，不用固定机构清单限制事实核查。",
+    "independence": "核对署名、稿源和引述链；不同网站转载同一稿件仅算一条证据。",
+    "freshness": "优先近72小时，必要时扩至近7天并说明理由；核对实际发生日期与报道日期。",
+    "fallback": "某源失败时使用其余可读来源并记录缺口，不仅凭搜索摘要写稿，不伪称已采集或已核验。"
+  },
+  "last_trial": {
+    "episode_date": "2026-11-05",
+    "authorization": "用户在本轮明确要求全流程试跑，临时使用来源提案；不代表长期来源验收或定时采集。",
+    "brief": "episodes/2026-11-05/brief.md"
+  }
+}

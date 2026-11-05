@@ -1,0 +1,47 @@
+{
+  "voice": "episodes/YYYY-MM-DD/voice.mp3",
+  "leading_seconds": 5,
+  "tail_seconds": 8,
+  "output_bitrate": "64k",
+  "output_channels": 1,
+  "pauses": [
+    {
+      "after": "你可以在心里想一想，也可以轻轻说给身边的人听。",
+      "seconds": 5
+    },
+    {
+      "after": "我们就在脑袋里，给两张照片留一点位置。",
+      "seconds": 6
+    },
+    {
+      "after": "又想给它留下一条怎样的线索，让未来的你更容易理解它呢？",
+      "seconds": 6
+    }
+  ],
+  "music": [
+    {
+      "track_id": "01-opening",
+      "at_seconds": 0,
+      "seconds": 12,
+      "db": -23
+    },
+    {
+      "track_id": "08-curiosity-piano",
+      "at_text": "我们再来想象一个小故事。",
+      "seconds": 26,
+      "db": -30
+    },
+    {
+      "track_id": "14-calm-piano",
+      "at_text": "现在我们回到开头那张想象中的桌子。",
+      "seconds": 24,
+      "db": -32
+    },
+    {
+      "track_id": "05-ending",
+      "before_voice_end": 4,
+      "seconds": 12,
+      "db": -26
+    }
+  ]
+}
