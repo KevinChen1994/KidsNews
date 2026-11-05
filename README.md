@@ -50,7 +50,7 @@ python3 scripts/assemble_episode.py --plan episodes/YYYY-MM-DD/mix-plan.json --o
 
 ## 音乐与缓存
 
-本机音乐库曾一次性准备27段，目录及用途见 [音乐库](assets/music/library.md) 和 `assets/music/catalog.json`。音频、供应商任务侧车与批次结果只保存在本机，不随仓库发布；新检出仓库需自行恢复获准使用的素材，目录记录不代表文件已存在。缺少合适库存时留白或报告缺口。`config/music-library.json` 保持 `reuse-only`，只有用户明确授权扩充才可修改并调用生成接口。
+音乐库一次性准备27段，目录及用途见 [音乐库](assets/music/library.md) 和 `assets/music/catalog.json`。库存MP3已纳入Git版本管理；来源和授权限制见[配乐授权说明](assets/music/NOTICE.md)，本地提交不代表已获公开素材库分发授权。供应商任务侧车与批次结果仍只保存在本机，迁移时另行保留，避免重复计费。缺少合适库存时留白或报告缺口。`config/music-library.json` 保持 `reuse-only`，只有用户明确授权扩充才可修改并调用生成接口。
 
 同名 JSON 保存请求、任务 ID、状态、时间戳和摘要，可能含完整个性化正文。保留这些缓存才能避免重复计费：成功结果复用；TTS 超时重跑原命令只查询既有任务；音乐请求结果不确定时停止重发。不同参数不能覆盖同一输出。`.lock` 仅在确认原进程结束后手动移除。不要因准备发布仓库而删除本地缓存。
 
@@ -108,7 +108,7 @@ Notion 每期一条记录，建议字段如下：
 
 - `.env` 等凭据和 `config/local.json` 等本机设置。
 - `private/`、`episodes/`、`delivery/`、`samples/`、`state/` 中的个人材料及运行记录。
-- 音频文件、音乐供应商侧车、批次结果和本机音频检查输出。
+- `assets/music/` 库存MP3以外的音频、音乐供应商侧车、批次结果和本机音频检查输出。
 
 忽略规则只影响 Git，不会删除本机文件；迁移制作环境时须另外安全备份个人配置、成品、音乐素材、缓存与声线状态。不要把含个人信息的音频当作公开示例。若文件已经被其他仓库跟踪或提交，单加 `.gitignore` 不会移除旧记录，发布前还须检查暂存区与历史。
 

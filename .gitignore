@@ -19,11 +19,14 @@ __pycache__/
 /samples/
 /state/
 
-# Generated audio and provider sidecars (keep catalog and batch manifests)
+# Personal audio stays ignored; reusable instrumental inventory is tracked
 *.mp3
 *.wav
 *.m4a
 *.flac
+!/assets/music/*.mp3
+
+# Provider sidecars stay local (keep catalog and batch manifests)
 /assets/music/*.json
 !/assets/music/catalog.json
 !/assets/music/library-build-*.json

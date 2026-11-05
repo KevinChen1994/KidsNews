@@ -16,6 +16,8 @@
 
 用户2026-11-05明确要求音乐只生成这一次：本轮扩充完成后，`config/music-library.json` 设为 `reuse-only`，禁止日常流程自动补曲。库存无合适曲目时选择留白或报告缺口；只有用户日后明确授权扩充，才可修改策略并调用音乐生成接口。
 
+用户已要求将 `assets/music/` 中27段库存MP3纳入Git版本管理，来源和授权限制见 `assets/music/NOTICE.md`；不得将本地提交解释为已获公开素材库分发授权。私人配音、节目成品、供应商侧车和付费缓存仍不得提交，音乐生成策略保持 `reuse-only`。
+
 主持声线用户已选定Vivi和云舟，每个节目日期等概率随机选一种并持久保存到 `state/voices/YYYY-MM-DD.json`。同日重跑不重选，允许连续两天相同（不是轮流交替）。`scripts/audio.py tts` 不传 --speaker 时自动使用该策略，补做旧节目须传 --episode-date。片头固定 `01-opening`，新增音乐仍需按曲目状态区别用户认可与待听审。
 
 公开仓库不得包含个人称呼、年龄、兴趣、私人分享地址、Notion 目标 ID 或本机绝对路径。个人设置写 `config/local.json`（Git 忽略），通用结构见 `config/local.example.json`；凭据仍只放 `.env`。历史节目、逐字稿、试听、交付、上传记录和运行状态均由 `.gitignore` 排除，不能为了去标识而修改与已有音频对应的文本或付费缓存。公开模板经 `scripts/prepare_script.py` 写入本地目录后再配音。
